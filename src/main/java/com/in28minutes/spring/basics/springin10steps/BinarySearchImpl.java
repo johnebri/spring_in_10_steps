@@ -9,10 +9,20 @@ public class BinarySearchImpl {
 	@Autowired
 	private SortAlgorithm sortAlgorithm;
 	
-	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
-		super();
+	// contructor injection
+//	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
+//		super();
+//		this.sortAlgorithm = sortAlgorithm;
+//	}
+	
+	// setter injection
+	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
 		this.sortAlgorithm = sortAlgorithm;
 	}
+	
+	
+	
+	
 	
 	public int binarySearch(int[] numbers, int numberToSearchFor) {
 		
@@ -24,6 +34,5 @@ public class BinarySearchImpl {
 		// Return the result
 		return 3;
 	}
-	
 
 }
