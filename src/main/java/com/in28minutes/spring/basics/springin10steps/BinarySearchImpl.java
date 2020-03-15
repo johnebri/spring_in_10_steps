@@ -16,9 +16,9 @@ public class BinarySearchImpl {
 //	}
 	
 	// setter injection
-	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
-		this.sortAlgorithm = sortAlgorithm;
-	}
+//	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
+//		this.sortAlgorithm = sortAlgorithm;
+//	}
 	
 	
 	
